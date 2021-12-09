@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import OssClient from "../utils/OssClient";
+import OssClient from "../utils/OssClient"
 export default {
     name: "oss-image",
     data() {
@@ -156,7 +156,7 @@ export default {
             } catch (error) {
                 console.error(error);
                 this.disabled = false;
-                option.onError('Your image upload failed.');
+                option.onError('Your image upload failed.')
             }
         },
         handleSuccess(response, file, fileList){
