@@ -1,7 +1,7 @@
 <template>
     <div>
         <OssImage url="/api/sts" bucket="lele-img" region="oss-cn-hangzhou" ref="abc" @imageUrl="getValue"/>
-        <el-button @click="getUrl">查看地址</el-button>
+        <el-button @click="getUrl">get image url</el-button>
     </div>
 </template>
 
